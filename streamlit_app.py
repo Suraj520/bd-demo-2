@@ -1,5 +1,6 @@
 import streamlit as st
-import openai
+from openai import OpenAI
+client = OpenAI()
 
 # Set up the layout
 st.set_page_config(page_title="ChatGPT UI", layout="centered")
